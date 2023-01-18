@@ -1,0 +1,51 @@
+* {           /*   * - это особый селектор, означает выбор всех элементов,тегов
+                       сбрасываем отступы с помощью margin: 0 */
+     margin: 0;
+} 
+
+
+h1 {
+    color: rgb(112, 55, 158); /* цвет текста */
+    text-align: center; /* отцентрировать текст */
+    font-size: 35px; /* размер шрифта, а по умолчанию он 32px */
+    margin: 30px;
+ /*отступ снизу, margin - свойство изменения внешних отступов 
+ 1. top - сверху
+ 2. right - справа
+ 3. bottom - снизу
+ 4. left - слева */                                         
+ 
+}
+article {
+    width: 90%;
+    margin: auto; /* для центрирования */
+    margin-bottom: 30px;
+    padding: 20px 0; /* padding - свойство изменения внутренних отступов */
+    }
+.post-blue {background-color: rgb(145, 165, 189);
+}
+.post-yellow {background-color: rgb(228, 224, 166);}
+
+h4 {
+    color: rgb(161, 23, 108);
+    text-align: center ;
+    font-size: 25px;
+   
+}
+img {
+    display: block; /* из картинки в блок */
+    margin: 20px auto 20px; /* центрирование блока */
+    width: 400px; /*можно указать значение так же в процентах */
+}
+
+p {
+    font-size: 20px; /* по умолчанию 16px у тега р */
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px 0;
+
+    
+}
+/*
+
+*/
